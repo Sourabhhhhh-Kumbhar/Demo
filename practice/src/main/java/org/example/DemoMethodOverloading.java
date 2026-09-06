@@ -35,7 +35,7 @@ public class DemoMethodOverloading
 
         System.out.println("Subtraction of two integers: " + subtract(40 , 10));
 
-        System.out.println("Sum of two doubles: " + add(2000,1200));
+        System.out.println("Sum of two doubles: " + add(10.5,20.5));
     }
 
 }
