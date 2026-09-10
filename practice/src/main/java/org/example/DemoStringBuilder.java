@@ -25,5 +25,10 @@ public class DemoStringBuilder
     }
 }
 
+//append()    → add text
+//insert()    → add text at a position
+//delete()    → remove text
+//reverse()   → reverse the string
+//toString()  → convert to String
 
 
