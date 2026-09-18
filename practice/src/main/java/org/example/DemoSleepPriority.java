@@ -42,6 +42,17 @@ public class DemoSleepPriority
         obj2.setPriority(Thread.MAX_PRIORITY); //This will push the Thread2 to execution
 
         obj1.start(); //We can only use start() when we have run() method in class
+
+//        try
+//        {
+//            Thread.sleep(5);
+//        }
+//        catch(InterruptedException e)
+//        {
+//            e.printStackTrace();
+//        }
+        //You can this try catch in case u have to optimize the code more better way.
+
         obj2.start();
 
     }
