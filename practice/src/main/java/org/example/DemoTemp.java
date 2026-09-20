@@ -18,5 +18,13 @@ public class DemoTemp
         a = a + b;
         b = a - b;
         a = a - b;
+
+        System.out.println("After Method 2: " + a + ", b = " + b);
+
+        a = a ^ b;
+        b = a ^ b;
+        a = a ^ b;
+
+        System.out.println("After Method 3: " + a + ", b = " + b);
     }
 }
