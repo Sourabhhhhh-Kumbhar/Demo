@@ -36,5 +36,8 @@ public class DemoCollection
         {
             System.out.println("Student not found");
         }
+
+        //Display List Size
+        System.out.println("Total Students: " + students.size());
     }
 }
