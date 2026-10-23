@@ -1,7 +1,7 @@
 package org.example;
 
 //Parent Class
-class Animal
+class Animalll
 {
     void sound()
     {
@@ -10,7 +10,7 @@ class Animal
 }
 
 //Child Class
-class Dog extends Animal
+class Doggg extends Animalll
 {
     @Override
     void sound()
@@ -25,7 +25,7 @@ public class DemoMethodOverridingRuntimePolymorphism
     public static void main(String[] args)
     {
         //Parent Reference, Child object
-        Animal animal = new Dog();
+        Animalll animal = new Doggg();
 
         //Calls Dog's Overridden Method At Runtime
         animal.sound();

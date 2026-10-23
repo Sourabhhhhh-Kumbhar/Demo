@@ -1,6 +1,6 @@
 package org.example;
 // Parent class (Superclass)
-class Animall
+class Animal
 {
     // Property of the parent class
     String name = "Dog";
@@ -13,7 +13,7 @@ class Animall
 }
 
 // Child class (Subclass) inherits Animal
-class Cat extends Animall
+class Cat extends Animal
 {
     // Method of the child class
     void meow()
